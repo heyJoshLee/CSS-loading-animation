@@ -1,0 +1,121 @@
+* {
+  font-family: sans-serif; 
+}
+
+
+h1 {
+  margin-top: -10px;
+  margin-bottom: 40px;
+}
+.section {
+  margin-top: 0px;
+  text-align: center;
+  width: 33%;
+  height: 200px;
+  display: inline-block;
+}
+
+.buttons li {
+  list-style-type: none;
+  display: inline-block;
+}
+/**********
+one
+**********/
+
+#one-ball-one {
+  background-color: rgba(200, 0, 0, 0.5);
+  animation: main 3s infinite linear;
+   animation-delay: -1s;
+}
+
+#one-ball-two {
+  background-color: rgba(0, 200, 0, 0.5);
+  animation: main 3s infinite linear;
+  animation-delay: -2s;
+}
+
+#one-ball-three {
+  background-color: rgba(0, 0, 200, 0.5);
+  animation: main 3s infinite linear;
+  animation-delay: -3s;
+}
+
+#one-ball-four {
+  background-color: rgba(0, 200, 200, 0.5);
+  animation: main-back 3s infinite linear;
+  animation-delay: -1s;
+}
+
+#one-ball-five {
+  background-color: rgba(200, 0, 200, 0.5);
+  animation: main-back 3s infinite linear;
+  animation-delay: -2s;
+}
+
+#one-ball-six {
+  background-color: rgba(200, 200, 0, 0.5);
+  animation: main-back 3s infinite linear;
+  animation-delay: -3s;
+}
+
+
+.ball {
+  margin-left: -30px;
+  margin-top: 0px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  transform-origin: 200% center;
+  
+  width: 10px;
+  height: 40px;
+}
+
+
+/**********
+two
+**********/
+#two-ball-one {
+  background-color: rgba(200, 0, 0, 0.5);
+  animation: main 3s infinite linear;
+   animation-delay: -1s;
+}
+
+#two-ball-two {
+  background-color: rgba(0, 200, 0, 0.5);
+  animation: main 3s infinite linear;
+  animation-delay: -2s;
+}
+
+#two-ball-three {
+  background-color: rgba(0, 0, 200, 0.5);
+  animation: main 3s infinite linear;
+  animation-delay: -3s;
+}
+
+#two-ball-four {
+  background-color: rgba(0, 200, 200, 0.5);
+  animation: main-back 3s infinite linear;
+  animation-delay: -1s;
+}
+
+#two-ball-five {
+  background-color: rgba(200, 0, 200, 0.5);
+  animation: main-back 3s infinite linear;
+  animation-delay: -2s;
+}
+
+#two-ball-six {
+  background-color: rgba(200, 200, 0, 0.5);
+  animation: main-back 3s infinite linear;
+  animation-delay: -3s;
+}
+
+@keyframes main {
+  to { transform: rotate(1turn); } 
+}
+
+@keyframes main-back {
+  to { transform: rotate(-1turn); } 
+}
